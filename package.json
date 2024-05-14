@@ -1,0 +1,17 @@
+{
+  "name": "d3-treesitter",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun --watch src/index.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "web-tree-sitter": "^0.22.6"
+  }
+}
